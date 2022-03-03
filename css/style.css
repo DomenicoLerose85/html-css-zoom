@@ -35,15 +35,13 @@ header{
     justify-content: flex-end;
     align-items: center;
     align-content: flex-start;
-    margin-right: 20px;
+    margin-right: 5px;
     border-radius: 5px;
+    margin-top: 15px;
 }
-/* div .spaeker{
-    margin-right: 20px;
-} */
 
 .fa-table-cells{
-    padding-right: 12px;
+    padding-right: 8px;
     color: white;
 }
 
@@ -63,33 +61,57 @@ header{
     height: 20px;
     background-color: grey;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: space-between;
+    justify-content: center;
+    align-content: center;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
-.fa-arrows-maximize{
+.fa-solid.fa-up-down-left-right{
     color: white;
+    padding-top: 2px;
+    width: 16px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /header */
+
+/* main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /main */
