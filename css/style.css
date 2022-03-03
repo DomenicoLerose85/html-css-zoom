@@ -40,9 +40,9 @@ header{
     justify-content: flex-end;
     align-items: center;
     align-content: flex-start;
+    margin-top: 4px;
     margin-right: 5px;
     border-radius: 5px;
-    margin-top: 4px;
 }
 
 .fa-table-cells{
@@ -85,16 +85,21 @@ header{
 .main_container{
     margin-top: 15vh;
     width: 80%;
-    height: 200vh;
+    height: 150vh;
     margin:auto;
 }
 .flex_main_container{
     display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .box{
     width: 22%;
     height: 51vh;
+    position: relative;
+    top: 30px;
 }
 
 img{
@@ -102,6 +107,8 @@ img{
 }
 
 .pinco{
+    position:absolute;
+    top: 180px;
     width: 75px;
     height: 4vh;
     background-color: grey;
@@ -114,7 +121,6 @@ img{
     color: white;
     font-size: 10px;
     padding-top: 3px;
-
 }
 
 .fa-solid.fa-microphone-slash{
@@ -124,39 +130,14 @@ img{
     padding-right: 7px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /main */
+
+/* footer */
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: grey;
+}
+
+
+/* /footer */
