@@ -9,6 +9,11 @@
     border: 1px solid black;
 }
 
+body{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
 /* header */
 
 .flex_container{
@@ -37,7 +42,7 @@ header{
     align-content: flex-start;
     margin-right: 5px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 
 .fa-table-cells{
@@ -65,7 +70,7 @@ header{
     align-content: center;
     margin-right: 3px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 
 .fa-solid.fa-up-down-left-right{
@@ -77,7 +82,37 @@ header{
 
 /* main */
 
+.main_container{
+    margin-top: 15vh;
+    width: 80%;
+    height: 200vh;
+    margin:auto;
+}
+.flex_main_container{
+    display:flex;
+}
 
+.box{
+    width: 22%;
+    height: 51vh;
+}
+
+img{
+    background-size: cover;
+}
+
+.pinco{
+    width: 60px;
+    height: 5vh;
+}
+
+.box_p{
+    color: white;
+}
+
+.fa-solid.fa-microphone-slash{
+    color: white;
+}
 
 
 
