@@ -10,7 +10,6 @@
 }
 
 body{
-    background-color: black;
     scroll-behavior: smooth;
 }
 
@@ -31,6 +30,7 @@ header{
     width: 100%;
     height: 8vh;
     background-color: black;
+    z-index: 10;
 }
 
 .speaker{
@@ -84,11 +84,10 @@ header{
 /* main */
 
 main{
-    height: calc(100vh - 10vh);
+    padding: 20px 50px;
     margin-top: 30px;
     width: 100%;
-    position: relative;
-    overflow-y: auto;
+    background-color: black;
 }
 main.flex_container{
     justify-content: center;
@@ -97,15 +96,22 @@ main.flex_container{
 }
 
 .box{
-    width: 200px;
-    height: 200px;                       
+    position: relative;
+    width: 20%;
+    height: 200px;   
+}
 
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 
 .pinco{
-    position:absolute;
-    top: 179px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     width: 75px;
     height: 4vh;
     background-color: grey;
@@ -131,70 +137,53 @@ main.flex_container{
 
 /* footer */
 footer{
-    position: fixed;
-    bottom:  0;
-    left: 0;
     width: 100%;
-    height: 25px;
+    padding: 10px 5px;
     background-color: rgb(67, 67, 67);
 }
 .footer_flex{ 
     display: flex;
-    flex-direction: row;
     align-content: center;
+    justify-content: space-between;
 } 
 
-.left_side{
-    width: 20%;
-    height: 10px;
-    padding-top: 20px;
-    padding-left: 10px;
+
+.icons_properties {
+    font-size: 15px !important;
+    color: white !important;
 }
 
-
-.fa-solid.fa-microphone{
-    color: white;
-    font-size: 25px;
+.fa-solid.fa-share-from-square{
+    color: green;
 }
 
-.left_side1{
-    color: white;
-    font-size: 10px;
-}
 .fa-solid.fa-angle-up{
+    font-size: 10px;
     color: white;
-    font-size: 8px;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    padding-right: 135px;
-
 }
 
-.wrapper_right{
-    width: 10%;
-    height: 15vh;
-    background-color: grey;
-    margin-left: 878px;
-    padding-top: 30px;
-}
-.right_side{
-    /* width: 20%; */
-    height: 15vh;
-    background-color: grey;
+li{
+    list-style: none;
+    margin-right: 10px;
 }
 
-.flex_right_side{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.meeting, .right_side{
-    color: red;
-    text-align: center;
+.footer_flex ul li p{
+    margin-top: 5px;
+    color: white;
     font-size: 10px;
 }
+
+.footer_flex ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+p, .meeting {
+    color: red;
+}
+
+
+
 
 /* /footer */
